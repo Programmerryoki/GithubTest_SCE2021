@@ -9,6 +9,8 @@ function App() {
     fetch('/api')
       .then((res) => res.json())
       .then((data) => setData(data.message));
+
+    console.log('Running Useeffect!');
   }, []);
 
   return (
