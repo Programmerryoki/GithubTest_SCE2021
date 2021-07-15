@@ -1,3 +1,7 @@
 function multiply(a, b) {
-  return a * c;
+  return a * b;
+}
+
+function subtract(a,b){
+  return a - b;
 }
